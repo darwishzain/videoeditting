@@ -1,5 +1,28 @@
 {
     "name": "Studiodeck",
     "version": "0.0.1",
-    "description": "UI for video editing management"
+    "description": "UI for video editing management",
+    "application": {
+        "kdenlive": "/usr/bin/kdenlive"
+    },
+    "settings":{
+        "studio": "../studio",
+        "library": "../library",
+        "backups": "../backups",
+        "folders": [
+            "01_project",
+            "02_footage_raw",
+            "03_footage_proxy",
+            "04_audio" ,
+            "04_audio/music",
+            "04_audio/sfx",
+            "04_audio/voice",
+            "05_graphics",
+            "06_vfx",
+            "07_reference",
+            "08_cache",
+            "09_renders_wip",
+            "10_exports"
+        ]
+    }
 }
